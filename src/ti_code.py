@@ -87,3 +87,7 @@ def _save_new_results(new_flake8, new_mi):
 
 def run_black(dir_path):
     os.system(f"black {dir_path}")
+
+
+def run_isort(dir_path):
+    os.system(f"isort {dir_path}")
