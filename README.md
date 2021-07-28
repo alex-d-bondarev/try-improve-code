@@ -1,5 +1,12 @@
-# try-improve-code
-Library for improving Python code
+# try_improve_code
+Package for improving Python code
+
+ToDo: more details
+
+## Build the project
+```shell
+PIPENV_IGNORE_VIRTUALENVS=1 pipenv run python setup.py bdist_wheel
+```
 
 
 ## Run all checks
