@@ -1,4 +1,4 @@
-# try_improve_code
+# try_improve_code POC
 Package for improving Python code
 
 ## Example usage
