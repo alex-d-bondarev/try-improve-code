@@ -1,7 +1,11 @@
 # try_improve_code
 Package for improving Python code
 
-ToDo: more details
+## Example usage
+```shell
+python -c'import try_improve.code as tic;tic.run_all("<path_to_project>")'
+```
+
 
 ## Build and install the project
 ```shell
