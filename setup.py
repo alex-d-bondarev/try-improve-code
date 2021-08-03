@@ -9,8 +9,6 @@ setup(
     author='Sasha Bondarev (Oleksandr)',
     author_email='alex.d.bondarev@gmail.com',
     license='MIT',
-    # py_modules=['ti_code'],
-    # package_dir={'', 'src'},
     packages=find_packages(),
     install_requires=[
         'black==21.7b0',
