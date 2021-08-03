@@ -6,8 +6,7 @@ Package for improving Python code
 python -c'import try_improve.code as tic;tic.run_all("<path_to_project>")'
 ```
 
-
-## Build and install the project
+## Build, install and check distribution readiness the project
 ```shell
 PIPENV_IGNORE_VIRTUALENVS=1 pipenv run python setup.py bdist_wheel
 PIPENV_IGNORE_VIRTUALENVS=1 pipenv run pip install -e .
@@ -21,6 +20,8 @@ exit()
 ```
 ```shell
 exit
+PIPENV_IGNORE_VIRTUALENVS=1 pipenv run python setup.py sdist
+tar tzf dist/try_improve_code-<version>.tar.gz 
 ```
 
 
