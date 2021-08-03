@@ -15,5 +15,12 @@ setup(
         'flake8==3.9.2',
         'isort==5.9.2',
         'radon==4.1.0',
+    ],
+    classifiers=[
+        "Development Status :: 1 - Planning",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.9",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
     ]
 )
