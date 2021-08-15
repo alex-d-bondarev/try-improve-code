@@ -1,6 +1,8 @@
 # try_improve_code POC
 Package for improving Python code
 
+This was a POC for [sfilter](https://github.com/alex-d-bondarev/sfilter)
+
 ## Example usage
 ```shell
 python -c'import try_improve.code as tic;tic.run_all("<path_to_project>")'
